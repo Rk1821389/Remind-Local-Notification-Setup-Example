@@ -21,5 +21,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>we need location to sent to you notifications based on your location</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>we need location to sent to you notifications based on your location</string>
 </dict>
 </plist>

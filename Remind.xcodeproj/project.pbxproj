@@ -15,6 +15,14 @@
 		AF40BD54296D92D00081096A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF40BD52296D92D00081096A /* LaunchScreen.storyboard */; };
 		AF40BD60296DDB810081096A /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40BD5F296DDB810081096A /* ShadowView.swift */; };
 		AF40BD62296DE0A80081096A /* UNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40BD61296DE0A80081096A /* UNService.swift */; };
+		AF40BD7E296EC5170081096A /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40BD7D296EC5170081096A /* AlertService.swift */; };
+		AF6280AE2971B7C60082D464 /* CLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6280AD2971B7C60082D464 /* CLService.swift */; };
+		AF6280B02971C14A0082D464 /* NotifificationAttachmentID.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6280AF2971C14A0082D464 /* NotifificationAttachmentID.swift */; };
+		AF6280B82971C40F0082D464 /* LocationAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6280B52971C40F0082D464 /* LocationAlert.png */; };
+		AF6280B92971C40F0082D464 /* TimeAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6280B62971C40F0082D464 /* TimeAlert.png */; };
+		AF6280BA2971C40F0082D464 /* DateAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6280B72971C40F0082D464 /* DateAlert.png */; };
+		AF6280BC2971D2FD0082D464 /* NotificationActionID.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6280BB2971D2FD0082D464 /* NotificationActionID.swift */; };
+		AF6280BE2971D4E50082D464 /* NotificationCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6280BD2971D4E50082D464 /* NotificationCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,14 @@
 		AF40BD55296D92D00081096A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF40BD5F296DDB810081096A /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		AF40BD61296DE0A80081096A /* UNService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNService.swift; sourceTree = "<group>"; };
+		AF40BD7D296EC5170081096A /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		AF6280AD2971B7C60082D464 /* CLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLService.swift; sourceTree = "<group>"; };
+		AF6280AF2971C14A0082D464 /* NotifificationAttachmentID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifificationAttachmentID.swift; sourceTree = "<group>"; };
+		AF6280B52971C40F0082D464 /* LocationAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LocationAlert.png; path = ../../LocationAlert.png; sourceTree = "<group>"; };
+		AF6280B62971C40F0082D464 /* TimeAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TimeAlert.png; path = ../../TimeAlert.png; sourceTree = "<group>"; };
+		AF6280B72971C40F0082D464 /* DateAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DateAlert.png; path = ../../DateAlert.png; sourceTree = "<group>"; };
+		AF6280BB2971D2FD0082D464 /* NotificationActionID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationActionID.swift; sourceTree = "<group>"; };
+		AF6280BD2971D4E50082D464 /* NotificationCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				AF40BD61296DE0A80081096A /* UNService.swift */,
+				AF40BD7D296EC5170081096A /* AlertService.swift */,
+				AF6280AD2971B7C60082D464 /* CLService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -90,6 +108,7 @@
 		AF40BD5D296DDA800081096A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AF6280B12971C3A20082D464 /* NotificationAsset */,
 				AF40BD50296D92D00081096A /* Assets.xcassets */,
 				AF40BD52296D92D00081096A /* LaunchScreen.storyboard */,
 				AF40BD4D296D92CE0081096A /* Main.storyboard */,
@@ -101,8 +120,21 @@
 		AF40BD5E296DDA880081096A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AF6280AF2971C14A0082D464 /* NotifificationAttachmentID.swift */,
+				AF6280BB2971D2FD0082D464 /* NotificationActionID.swift */,
+				AF6280BD2971D4E50082D464 /* NotificationCategory.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		AF6280B12971C3A20082D464 /* NotificationAsset */ = {
+			isa = PBXGroup;
+			children = (
+				AF6280B72971C40F0082D464 /* DateAlert.png */,
+				AF6280B52971C40F0082D464 /* LocationAlert.png */,
+				AF6280B62971C40F0082D464 /* TimeAlert.png */,
+			);
+			path = NotificationAsset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +196,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF40BD54296D92D00081096A /* LaunchScreen.storyboard in Resources */,
+				AF6280B82971C40F0082D464 /* LocationAlert.png in Resources */,
+				AF6280B92971C40F0082D464 /* TimeAlert.png in Resources */,
 				AF40BD51296D92D00081096A /* Assets.xcassets in Resources */,
+				AF6280BA2971C40F0082D464 /* DateAlert.png in Resources */,
 				AF40BD4F296D92CE0081096A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,11 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF6280BE2971D4E50082D464 /* NotificationCategory.swift in Sources */,
 				AF40BD60296DDB810081096A /* ShadowView.swift in Sources */,
 				AF40BD4C296D92CE0081096A /* ViewController.swift in Sources */,
 				AF40BD48296D92CE0081096A /* AppDelegate.swift in Sources */,
+				AF6280AE2971B7C60082D464 /* CLService.swift in Sources */,
 				AF40BD4A296D92CE0081096A /* SceneDelegate.swift in Sources */,
+				AF40BD7E296EC5170081096A /* AlertService.swift in Sources */,
+				AF6280B02971C14A0082D464 /* NotifificationAttachmentID.swift in Sources */,
 				AF40BD62296DE0A80081096A /* UNService.swift in Sources */,
+				AF6280BC2971D2FD0082D464 /* NotificationActionID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
